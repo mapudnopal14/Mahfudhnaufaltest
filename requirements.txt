@@ -1,13 +1,17 @@
-streamlit==1.52.0
+streamlit==1.32.0
 pyngrok==7.5.0
-python-dotenv==1.2.1
+python-dotenv==1.0.1
+
+# LangChain stable bundle
 langchain==0.2.16
-langchain-core==0.2.41
-langchain-community==0.2.11
-langchain-text-splitters==0.2.4
-langgraph==0.2.3
+
+# avoid Rust compilation issues
+tokenizers==0.19.1
+
+# LLM & routing
+replicate==1.0.7
 semantic-router==0.1.12
+
+nest-asyncio==1.6.0
 praw==7.7.1
 cohere==5.5.0
-replicate==1.0.7
-nest-asyncio==1.6.0
