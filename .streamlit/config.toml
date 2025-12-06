@@ -1,2 +1,2 @@
-[general]
-python_version = "3.11"
+[global]
+pythonVersion = "3.11"
