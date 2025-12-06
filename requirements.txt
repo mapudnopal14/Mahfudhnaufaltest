@@ -1,18 +1,24 @@
 streamlit==1.52.0
 pyngrok==7.5.0
 python-dotenv==1.2.1
+
+# Langchain ecosystem (stable)
 langchain==0.2.16
 langchain-core==0.2.41
 langchain-community==0.2.11
 langchain-text-splitters==0.2.4
 langgraph==0.2.3
 langchain-ollama==0.1.1
+
+# Prevent Streamlit Cloud from pulling Rust-dependent versions
+transformers==4.36.2
+tokenizers==0.15.2
+huggingface-hub==0.20.3
+safetensors==0.4.2
+
 semantic-router==0.0.61
 pyppeteer==2.0.0
 nest-asyncio==1.6.0
 praw==7.7.1
 cohere==5.5.0
 replicate==1.0.7
-
-# "force uninstall" tokenizers (prevent LangChain from pulling Huggingface)
-tokenizers==0.0.0
